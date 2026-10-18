@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-ink text-fog font-sans antialiased; }
+  :focus-visible { @apply outline outline-2 outline-offset-2 outline-signal; }
+}
